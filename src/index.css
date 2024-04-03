@@ -1,0 +1,244 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: content-box;
+}
+
+@layer components {
+  /* Header */
+
+  /* .home-container{
+        border: solid 5px red;
+    } */
+  .img {
+    /* border: 5px solid red; */
+    /* margin: 4px 6px 6px 2px; */
+  }
+  .contact-info {
+    color: #0057a6;
+  }
+  .no-container {
+    /* border: solid 5px red; */
+    width: 280px;
+    display: flex;
+  }
+  .callnow-button {
+    background-color: #0057a6;
+    height: 35px;
+    font-size: 12px;
+    width: 80px;
+    color: white;
+    border-radius: 5px;
+  }
+  .app-images {
+    height: 300px;
+    width: 370px;
+  }
+
+  /* Appointment container */
+
+  .appiontment-container {
+    background-color: #d5e7f8;
+    height: 500px;
+    margin: 0px;
+    /* border: green solid 5px; */
+  }
+  .appiontment-text-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Appiontment-title {
+    color: #0057a6;
+    font-size: 36px;
+  }
+  .book-button {
+  }
+  .images-big-container {
+    /* position: absolute; */
+    display: grid;
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Adjust gap between images as needed */
+    width: 40%;
+    height: 20%;
+    margin-left: 48px;
+  }
+  .imgs-container {
+    position: relative;
+  }
+  .app-image-left {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    height: 200px;
+    object-fit: cover;
+  }
+  .app-image-right {
+    position: relative;
+    top: 15px;
+    left: 220px;
+    /* height: 200px; */
+    /* object-fit: cover; */
+    height: 214px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .imgs-container-2 {
+    position: relative;
+  }
+  .app-image-left-2 {
+    position: absolute;
+    top: 109px;
+    bottom: 0;
+    /* left: 180px; */
+    right: 366px;
+    height: 286px;
+    width: 500px;
+  }
+  .app-image-right-2 {
+    position: relative;
+    top: 102px;
+    left: -129px;
+    /* height: 200px; */
+    /* object-fit: cover; */
+    height: 277px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .imgs-container-3 {
+    position: relative;
+  }
+  .app-image-left-3 {
+    position: absolute;
+    top: -18px;
+    bottom: 0;
+    /* left: 180px; */
+    right: 120px;
+    height: 233px;
+    width: 500px;
+    object-fit: cover;
+  }
+  .app-image-right-3 {
+    position: relative;
+    top: -36px;
+    left: 130px;
+    height: 200px;
+    /* object-fit: cover; */
+    height: 230px;
+    width: 326px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .msg-box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .location-img {
+    position: relative;
+    left: 24px;
+  }
+  .location-appiontment-container {
+    position: relative;
+    bottom: 114px;
+    right: 71px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* why-choose-us-container */
+
+  .why-choose-us-container {
+    margin-top: -60px;
+    /* border: 2px solid red; */
+  }
+  .wcu-treatments-section {
+    background-image: url("./why-choose-us/treatments-section.png");
+    height: 140px;
+    margin-top: -30px;
+    margin-left: -22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .icon-text-container {
+    /* border: solid 2px green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 75px;
+  }
+  .wcu-text-container {
+    width: 40%;
+  }
+  .vector-image {
+    position: relative;
+    left: 324px;
+    bottom: 60px;
+  }
+  .specialists{
+    background-image: url("./why-choose-us/specialists.png");
+    height: 140px;
+  }
+
+
+  /* Experience container */
+  .gray-container{
+    width: 580px;
+  }
+  .blue-container{
+    width: 435px;
+  }
+  .blue-container-2{
+    width: 500px;
+  }
+  .blue-container-3{
+    width: 375px;
+  }
+  .blue-container-4{
+    width: 550px;
+  }
+
+  /* Stories-container */
+  .doctor-image{
+    height: 439px;
+    position: relative;
+    /* top: -59px; */
+    /* border: solid 5px black; */
+  }
+
+  /* emergency-conatiner */
+  .emergency{
+    position: relative;
+    top: 40px;
+  }
+  .ambualance{
+    position: relative;
+    top: 70px;
+    right: 80px;
+  }
+
+  /* footer-container */
+  .text-green-container{
+    position: relative;
+    top: -30px;
+  }
+  .footer{
+    margin-top: -100px;
+  }
+  .hr{
+    width: 93vw;
+    margin-top: -20px;
+  }
+}
